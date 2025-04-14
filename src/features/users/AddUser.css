@@ -1,0 +1,95 @@
+/* AddUser.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f6fa;
+}
+
+.container {
+    /* max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1); */
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    }
+
+.header {
+  text-align: center;
+  /* margin-bottom: 30px; */
+  background-color: black;
+  height: 25vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+h2 {
+  font-weight: 600;
+  color: #002244;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-left,
+.form-right {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 14px;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.submit-button {
+  margin: 30px auto 0;
+  display: block;
+  padding: 10px 30px;
+  background-color: #002244;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #003366;
+}
+
+.logo {
+  height: 93.86px;
+  object-fit: contain;
+  /* margin-bottom: 10px; */
+  width:104.7px
+}
+.center-wrapper {
+  background: white;
+  height: 77vh;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

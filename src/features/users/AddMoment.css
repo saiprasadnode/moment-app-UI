@@ -1,0 +1,38 @@
+.logo1 {
+    height: 93.86px;
+    object-fit: contain;
+    /* margin-bottom: 10px; */
+    width:104.7px
+  }
+  .custom-active {
+    background-color: black !important;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white !important;
+  }
+
+  /* .custom-active {
+    font-weight: bold;
+    color: #000;
+  } */
+  
+  .submenu-active > .ant-menu-submenu-title {
+    background-color: #001529 !important;
+    color: #fff !important;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .submenu-label {
+    padding: 8px 24px;
+    font-size: 14px;
+    color: #001529;
+    margin-top: 4px;
+    margin-left: 19px;
+  }
+  .bullet-item {
+    padding-left: 30px !important;
+  }
+  .ant-layout-sider {
+    transition: all 0.2s ease;
+}
